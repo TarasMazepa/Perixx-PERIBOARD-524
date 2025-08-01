@@ -1,0 +1,62 @@
+{
+  "project": {
+    "pid": "2dc85600-b76c-47a7-ad1d-c98082d634a0",
+    "rev": "2",
+    "rev_timestamp": "1751758781714",
+    "pname": "Unnamed VIA Project",
+    "creator": "VGG Image Annotator (http://www.robots.ox.ac.uk/~vgg/software/via)",
+    "created": 1751757979091,
+    "vid_list": [
+      "1"
+    ]
+  },
+  "config": {
+    "file": {
+      "loc_prefix": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      }
+    },
+    "ui": {
+      "file_content_align": "center",
+      "file_metadata_editor_visible": true,
+      "spatial_metadata_editor_visible": true,
+      "temporal_segment_metadata_editor_visible": true,
+      "gtimeline_visible_row_count": "4"
+    }
+  },
+  "attribute": {},
+  "file": {
+    "1": {
+      "fid": "1",
+      "fname": "keyboard_left.jpg",
+      "type": 2,
+      "loc": 1,
+      "src": ""
+    }
+  },
+  "metadata": {
+    "1_cQilLhuS": {
+      "vid": "1",
+      "flg": 0,
+      "z": [],
+      "xy": [
+        5,
+        32.82108,
+        2019.75851,
+        2385.83974,
+        2087.92536
+      ],
+      "av": {}
+    }
+  },
+  "view": {
+    "1": {
+      "fid_list": [
+        "1"
+      ]
+    }
+  }
+}
