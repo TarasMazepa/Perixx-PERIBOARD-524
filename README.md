@@ -15,6 +15,22 @@ This project provides 3D models designed for 3D printing (e.g., using flexible T
 
 ## Requirements & Usage
 
+### Generating OpenSCAD Models
+
+The `.scad` models are generated from the VIA JSON measurements using the [`openscad.dart`](https://github.com/TarasMazepa/openscad.dart) CLI generator:
+
+```bash
+# Left half
+dart run /path/to/openscad.dart/cli/bin/openscad.dart \
+  keyboard_left_calibration.json keyboard_left_measured.json \
+  > keyboard_left.scad
+
+# Right half
+dart run /path/to/openscad.dart/cli/bin/openscad.dart \
+  keyboard_right_calibration.json keyboard_right_measured.json \
+  > keyboard_right.scad
+```
+
 ### OpenSCAD
 
 To preview or export models to STL:
